@@ -205,10 +205,14 @@ body {
 .prev-match {
     position: relative;
     float: right;
-    margin-top: -800px;
+    margin-top: -870px;
     border: 1px solid grey;
     text-align: center;
     width: 30%;
+}
+
+.prev-match a {
+    text-decoration: none;
 }
 
 .match-highlights {
@@ -233,8 +237,8 @@ body {
 
 .latest-match {
     position: relative;
-    top: -800px;
-    left: 1020px;
+    top: -860px;
+    margin-left: 1020px;
 }
 
 .icons-pequenos {
@@ -285,7 +289,7 @@ body {
 }
 
 .nav-right {
-    margin-left: 25%;
+    margin-left: 530px;
 }
 
 .About img {
@@ -462,9 +466,4 @@ body {
     border-left: 1px solid grey;
     margin-left: 660px;
     margin-top: -150px;
-    <<<<<<< HEAD
 }
-
-=======
-}
->>>>>>>eda81eee78bcd31f8277f28872e980fa2cd13ac5
