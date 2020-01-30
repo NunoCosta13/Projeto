@@ -264,3 +264,87 @@ body {
 .nav-right {
     margin-left: 670px;
 }
+
+.partners-bottom {
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foot-part {
+    float: left;
+    padding: 0 60px 0 0;
+    position: relative;
+}
+
+.sub-footer {
+    max-width: 1600px;
+    background-color: rgb(30, 30, 30);
+    margin-top: 50px;
+    height: 200px;
+}
+
+.sub-img {
+    margin-top: 40px;
+    margin-left: 80px;
+    opacity: 0.7;
+}
+
+.navigation {
+    margin-left: 20px;
+}
+
+.navigation dt {
+    padding: 0 0 10px 0;
+}
+
+.navigation h3 {
+    color: gray;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: darkred;
+    transition: 1s;
+}
+
+.sub-square {
+    border-left: 1px solid grey;
+    margin-left: 350px;
+    margin-top: -160px;
+}
+
+.information {
+    margin-left: 20px;
+}
+
+.information dt {
+    padding: 0 0 10px 0;
+}
+
+.information h3 {
+    color: gray;
+}
+
+.information a {
+    color: white;
+    text-decoration: none;
+}
+
+.information a:hover {
+    color: darkred;
+    transition: 1s;
+}
+
+.sub-square2 {
+    border-left: 1px solid grey;
+    margin-left: 660px;
+    margin-top: -150px;
+}
