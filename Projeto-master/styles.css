@@ -1,0 +1,273 @@
+body {
+    height: 100%;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+}
+
+.round_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -745px;
+}
+
+.round_logo2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -96px;
+    margin-right: 693px;
+}
+
+.navbar2 {
+    overflow: hidden;
+    background-color: rgb(117, 23, 23);
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.welcome {
+    margin-left: 57px;
+}
+
+.navbar {
+    overflow: hidden;
+    display: flex;
+    background-color: rgb(30, 30, 30);
+    left: 400px;
+    padding: 10px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding: 14px 55px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgb(150, 0, 0);
+    transition: 1s;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 55px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(30, 30, 30);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    color: rgb(150, 0, 0);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.img_header {
+    height: auto;
+    width: auto;
+}
+
+.texto_head {
+    align-items: center;
+    height: 30em;
+    padding: 150px 0 0 50px;
+}
+
+.texto_head h1 {
+    width: 60%;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 50px;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.news_tag {
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 0 10px 0;
+    padding: 0px 11px 0 10px;
+    text-transform: uppercase;
+    background-color: rgb(150, 0, 0);
+    font-weight: bold;
+}
+
+.head_pequeno {
+    width: 50%;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+.home-bottom {
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+.three-v {
+    float: left;
+    padding: 0 20px 0 0;
+    position: relative;
+}
+
+.text-block {
+    font-size: 12px;
+    position: absolute;
+    top: 2px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    padding: 0 20px 0 20px;
+}
+
+.tabelas {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.tabela {
+    border: 1px solid grey;
+}
+
+.tabelas .tabela {
+    table-layout: fixed;
+    width: 900px;
+}
+
+.texto-box {
+    margin-left: -350px;
+}
+
+.check {
+    margin-left: 400px;
+    color: white;
+    text-decoration: none;
+}
+
+.seta {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.prev-match {
+    float: right;
+    margin-right: 40px;
+    margin-top: -800px;
+    border: 1px solid grey;
+}
+
+.match-highlights {
+    font-size: 14px;
+    margin-left: 45px;
+}
+
+.watch-now {
+    font-size: 14px;
+    position: absolute;
+    top: 1130px;
+    right: 195px;
+    background-color: darkred;
+    color: white;
+    padding: 0 10px 0 10px;
+}
+
+.latest-match {
+    position: relative;
+    top: -800px;
+    left: 1020px;
+}
+
+.icons-pequenos {
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 90px;
+    margin-left: 1150px;
+}
+
+.mini-box {
+    float: left;
+    position: relative;
+    border: 2px solid whitesmoke;
+    margin-left: 10px;
+}
+
+.jogo {
+    margin-left: 40px;
+}
+
+.jogo h1 {
+    font-size: 40px;
+}
+
+.jogo img {
+    margin-top: 50px;
+}
+
+.tabelas2 {
+    margin-left: 40px;
+}
+
+.tabela2 {
+    border: 1px solid grey;
+}
+
+.tabelas2 .tabela2 {
+    table-layout: fixed;
+    width: 900px;
+}
+
+.roster {
+    margin-left: 40px;
+}
+
+.nav-right {
+    margin-left: 670px;
+}
+
+.About img{
+    display: block;    
+    margin-top: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
