@@ -14,6 +14,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: -745px;
+    transition: all .2s ease-in-out;
+}
+
+.round_logo:hover { 
+    transform: scale(1.1); 
+    filter: brightness(120%);
 }
 
 .round_logo2 {
