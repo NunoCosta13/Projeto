@@ -47,7 +47,7 @@ function addRemCart(obj, preco) {
 
         precoTotal = precoTotal + preco;
 
-        alert("Adicionaste " + obj.name + " ao carrinho!" + preco);
+        alert("Adicionaste " + obj.name + " ao carrinho!");
 
         showCart();
     }
