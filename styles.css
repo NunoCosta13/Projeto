@@ -331,18 +331,6 @@ body {
     text-decoration: none;
 }
 
-.artigo {
-    float: left;
-    width: 30%;
-    margin-left: 3%;
-    margin-top: 10px;
-}
-
-.artigo img {
-    width: 150px;
-    height: auto;
-}
-
 #precoTotal {
     color: white;
     font-size: 12px;
@@ -363,15 +351,31 @@ body {
 }
 
 .merchContainer {
-    margin-top: 10%;
-    position: relative;
+    margin-top: 5%;
     width: 100%;
+    height: 400px;
 }
 
-.merchContainer img {
+.artigo {
+    position: relative;
     float: left;
-    width: 25%;
-    height: auto;
+    width: 33%;
+}
+
+.artigo img {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 1%;
+}
+
+.artigo input {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 20%;
+    margin-bottom: 1%;
 }
 
 .formRegistar {

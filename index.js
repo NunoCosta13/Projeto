@@ -37,7 +37,7 @@ function showCart() {
         isOpen = false;
     }
 
-        precoTotalLabel.innerHTML = "Total: " + precoTotal;
+        precoTotalLabel.innerHTML = "Total: " + precoTotal + " &euro;";
 }
 
 function addRemCart(obj, preco) {
