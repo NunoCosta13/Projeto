@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/d36aa40265.js" crossorigin="anonymous"></script>
+    <title>YOMM || Shop</title>
+</head>
+
+<body>
+    <div class="navbar2">
+        <p class="welcome">Welcome to the oficial website of team YoMM</p>
+    </div>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="index.html#News" class="news-nav">News</a>
+        <div class="dropdown">
+            <button class="dropbtn">Teams
+            <i class="fa fa-caret-down"></i>
+          </button>
+            <div class="dropdown-content">
+                <a href="#">Smite</a>
+                <a href="#">Fifa 20</a>
+                <a href="#">League of Legends</a>
+            </div>
+        </div>
+        <a href="shop.html">Shop</a>
+    </div>
+    <img class="cidade" src="img/cidade.png" width="100%" height="645px">
+    <a href="index.html"><img class="round_logo" src="img/logos/logo.png" width="150px" height="150px"></a>
+
+    <div class="user">
+        <div class="imgUser"><img class="user" alt="Profile Picture" src="img/noUser.png"></div>
+        <div>
+            <a href="#">Iniciar Sessão</a>
+            <a href="register.html">Registar</a>
+        </div>
+    </div>
+
+    <form name="registration" action="#" onsubmit="confirmRegistration()">
+        <div class="formRegistar">
+            <label for="fname"><b>First Name</b></label><br>
+            <input type="text" placeholder="Enter Your First Name" name="fname" required><br>
+            <label for="lname"><b>Last Name</b></label><br>
+            <input placeholder="Enter Your Last Name" name="lname" required><br>
+            <label type="text" for="username"><b>Username</b></label><br>
+            <input placeholder="Enter Your Username" name="username" required><br>
+            <label for="email"><b>Email</b></label><br>
+            <input type="email" placeholder="Enter Your E-Mail" name="email" required><br>
+            <label for="pw"><b>Password</b></label><br>
+            <input type="password" name="pw" required><br>
+            <label for="pwC"><b>Confirm your Password</b></label><br>
+            <input type="password" name="pwC" required><br>
+
+            <p>By creating an account you agree to our <a onclick="alert('Terms & Privacy')" href="#">Terms & Privacy</a>.</p>
+            <button type="submit" class="registerbtn">Register</button>
+        </div>      
+    </form>
+
+    <footer>
+        <p>&copy; YoMM 2020</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
