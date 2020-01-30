@@ -9,7 +9,8 @@ body {
     background-color: black;
 }
 
-.round_logo {
+.round_logo,
+.round_logo2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -17,7 +18,8 @@ body {
     transition: all .2s ease-in-out;
 }
 
-.round_logo:hover { 
+.round_logo:hover,
+.round_logo2:hover { 
     transform: scale(1.1); 
     filter: brightness(120%);
 }
@@ -172,7 +174,7 @@ body {
 
 .tabelas {
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 5%;
 }
 
 .tabela {
@@ -200,25 +202,31 @@ body {
 }
 
 .prev-match {
+    position: relative;
     float: right;
-    margin-right: 40px;
     margin-top: -800px;
     border: 1px solid grey;
+    text-align: center;
+    width: 30%;
 }
 
 .match-highlights {
     font-size: 14px;
-    margin-left: 45px;
+    width: 100%;
+    text-align: center;
 }
 
 .watch-now {
-    font-size: 14px;
-    position: absolute;
-    top: 1130px;
-    right: 195px;
+    text-align: center;
+    font-size: 14px;;
     background-color: darkred;
     color: white;
-    padding: 0 10px 0 10px;
+    padding: 1px 10px 1px 10px;
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    text-decoration: none;
 }
 
 .latest-match {
@@ -230,9 +238,10 @@ body {
 .icons-pequenos {
     content: "";
     clear: both;
-    display: table;
+    position: relative;
+    float: right;
     margin-top: 90px;
-    margin-left: 1150px;
+    padding-bottom: 5%;
 }
 
 .mini-box {
@@ -255,6 +264,7 @@ body {
 }
 
 .tabelas2 {
+    margin-top: 10%;
     margin-left: 40px;
 }
 
