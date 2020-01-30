@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     height: 100%;
     color: white;
@@ -262,5 +266,90 @@ body {
 }
 
 .nav-right {
-    margin-left: 670px;
+    margin-left: 30%;
+}
+
+.imgUser img {
+    position: relative;
+    float: right;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .user {
+      position: fixed;
+      right: 2%;
+      top: 5%;
+  }
+
+  .user a {
+      margin-right: 20px;
+      float: right;
+      padding: 5px 5px 5px 5px;
+      font-family: Verdana, Geneva, Tahoma, sans-serifs;
+      font-size: 10px;
+      text-decoration: none;
+      color: white;
+  }
+
+  #itemsInCart {
+    color: white;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.artigo {
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 10px;
+  }
+
+  .artigo img {
+      width: 150px;
+      height: auto;
+  } 
+
+  #precoTotal {
+      color: white;
+      font-size: 12px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-decoration: none;
+  }
+
+  .shopCart {
+    position: fixed;
+    z-index: 10;
+    bottom: 50%;
+    right: 2%;
+    text-align: center;
+}
+
+.shopCart img {
+    width: 30px;
+}
+
+.merchContainer {
+    margin-top: 10%;
+    position: relative;
+    width: 100%;
+}
+
+.merchContainer img {
+    float: left;
+    width: 25%;
+    height: auto;
+}
+
+.formRegistar {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.formRegistar input{
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
