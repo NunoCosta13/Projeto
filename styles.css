@@ -7,6 +7,7 @@ body {
     color: white;
     font-family: "Montserrat", sans-serif;
     background-color: black;
+    max-width: 1600px;
 }
 
 .round_logo,
@@ -19,8 +20,8 @@ body {
 }
 
 .round_logo:hover,
-.round_logo2:hover { 
-    transform: scale(1.1); 
+.round_logo2:hover {
+    transform: scale(1.1);
     filter: brightness(120%);
 }
 
@@ -218,7 +219,8 @@ body {
 
 .watch-now {
     text-align: center;
-    font-size: 14px;;
+    font-size: 14px;
+    ;
     background-color: darkred;
     color: white;
     padding: 1px 10px 1px 10px;
@@ -242,6 +244,7 @@ body {
     float: right;
     margin-top: 90px;
     padding-bottom: 5%;
+    margin-right: 40px;
 }
 
 .mini-box {
@@ -255,16 +258,15 @@ body {
     margin-left: 40px;
 }
 
+.jogo img {
+    margin-top: 40px;
+}
+
 .jogo h1 {
     font-size: 40px;
 }
 
-.jogo img {
-    margin-top: 50px;
-}
-
 .tabelas2 {
-    margin-top: 10%;
     margin-left: 40px;
 }
 
@@ -278,6 +280,7 @@ body {
 }
 
 .roster {
+    margin-top: 150px;
     margin-left: 40px;
 }
 
@@ -285,8 +288,8 @@ body {
     margin-left: 25%;
 }
 
-.About img{
-    display: block;    
+.About img {
+    display: block;
     margin-top: 500px;
     margin-right: auto;
     margin-left: auto;
@@ -299,25 +302,25 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-  }
+}
 
-  .user {
-      position: fixed;
-      right: 2%;
-      top: 5%;
-  }
+.user {
+    position: fixed;
+    right: 2%;
+    top: 5%;
+}
 
-  .user a {
-      margin-right: 20px;
-      float: right;
-      padding: 5px 5px 5px 5px;
-      font-family: Verdana, Geneva, Tahoma, sans-serifs;
-      font-size: 10px;
-      text-decoration: none;
-      color: white;
-  }
+.user a {
+    margin-right: 20px;
+    float: right;
+    padding: 5px 5px 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+}
 
-  #itemsInCart {
+#itemsInCart {
     color: white;
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -329,21 +332,21 @@ body {
     width: 30%;
     margin-left: 3%;
     margin-top: 10px;
-  }
+}
 
-  .artigo img {
-      width: 150px;
-      height: auto;
-  } 
+.artigo img {
+    width: 150px;
+    height: auto;
+}
 
-  #precoTotal {
-      color: white;
-      font-size: 12px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      text-decoration: none;
-  }
+#precoTotal {
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
 
-  .shopCart {
+.shopCart {
     position: fixed;
     z-index: 10;
     bottom: 50%;
@@ -372,7 +375,91 @@ body {
     margin-top: 1%;
 }
 
-.formRegistar input{
+.formRegistar input {
     margin-top: 10px;
     margin-bottom: 30px;
+}
+
+.partners-bottom {
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foot-part {
+    float: left;
+    padding: 0 60px 0 0;
+    position: relative;
+}
+
+.sub-footer {
+    max-width: 1600px;
+    background-color: rgb(30, 30, 30);
+    margin-top: 50px;
+    height: 200px;
+}
+
+.sub-img {
+    margin-top: 40px;
+    margin-left: 80px;
+    opacity: 0.7;
+}
+
+.navigation {
+    margin-left: 20px;
+}
+
+.navigation dt {
+    padding: 0 0 10px 0;
+}
+
+.navigation h3 {
+    color: gray;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: darkred;
+    transition: 1s;
+}
+
+.sub-square {
+    border-left: 1px solid grey;
+    margin-left: 350px;
+    margin-top: -160px;
+}
+
+.information {
+    margin-left: 20px;
+}
+
+.information dt {
+    padding: 0 0 10px 0;
+}
+
+.information h3 {
+    color: gray;
+}
+
+.information a {
+    color: white;
+    text-decoration: none;
+}
+
+.information a:hover {
+    color: darkred;
+    transition: 1s;
+}
+
+.sub-square2 {
+    border-left: 1px solid grey;
+    margin-left: 660px;
+    margin-top: -150px;
 }
