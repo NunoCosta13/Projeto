@@ -69,3 +69,12 @@ function confirmRegistration() {
         alert("Welcome " + document.forms["registration"]["fname"].value + ' "' + document.forms["registration"]["username"].value + '" ' + document.forms["registration"]["lname"].value + " to YoMM!");
     else alert("Passwords don't match! Please try again!");
 }
+
+function openCloseLogin() {
+    
+}
+
+function confirmLogin() {
+
+}
+
