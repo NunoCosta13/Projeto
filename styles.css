@@ -359,6 +359,7 @@ body {
     position: relative;
     float: left;
     width: 30%;
+    text-align: center;
 }
 
 .artigo img {
@@ -367,7 +368,6 @@ body {
     margin: 0 auto;
     width: 50%;
     height: auto;
-    margin-bottom: 10%;
 }
 
 .artigo input {
@@ -482,4 +482,36 @@ body {
 .team_accompl h3 {
     background-color: darkred;
     padding: 0 0 0 60px;
+}
+
+.loginForm{
+    position: fixed;
+    top:20%;
+    right: 39%;
+    display: none;
+}
+
+.loginForm form {
+    background-color: rgba(30, 30, 30, 0.8);
+    padding: 50px 100px 50px 100px;
+}
+
+.loginForm input {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.loginForm button {
+    margin-top: 5%;
+}
+
+.loginForm h5 {
+    left: 0%;
+    top: 0%;
+}
+
+.closeLogin {
+    position: absolute;
+    top: 0;
+    right: 20px;
 }

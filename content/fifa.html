@@ -8,6 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/d36aa40265.js" crossorigin="anonymous"></script>
     <title>YoMM || Fifa20</title>
+
+
 </head>
 
 <body>
@@ -126,6 +128,18 @@
         </div>
 
     </footer>
+
+    <div id="login" class="loginForm">
+        <form name="login" action="#" onsubmit="confirmLogin()">
+            <p onclick="openCloseLogin()" class="closeLogin">x</p>
+            <label type="text" for="username"><b>Username</b></label><br>
+            <input placeholder="Enter Your Username" name="username" required><br>
+            <label for="pw"><b>Password</b></label><br>
+            <input type="password" name="pw" required><br>
+
+            <button type="submit" onsubmit="confirmLogin()">Login</button>
+        </form>
+    </div>
 </body>
 
 </html>

@@ -69,3 +69,20 @@ function confirmRegistration() {
         alert("Welcome " + document.forms["registration"]["fname"].value + ' "' + document.forms["registration"]["username"].value + '" ' + document.forms["registration"]["lname"].value + " to YoMM!");
     else alert("Passwords don't match! Please try again!");
 }
+
+var isLoginOpen = false;
+var loginForm = document.getElementById("login")
+function openCloseLogin() {
+    if (isLoginOpen == false) {
+        loginForm.style.display = "flex";
+        isLoginOpen = true;
+    }
+    else if (isLoginOpen == true) {
+        loginForm.style.display = "none";
+        isLoginOpen = false;
+    }
+}
+
+function confirmLogin() {
+    alert("User not found. Try again!");
+}
