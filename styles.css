@@ -359,7 +359,7 @@ body {
 .artigo {
     position: relative;
     float: left;
-    width: 33%;
+    width: 30%;
 }
 
 .artigo img {
@@ -367,7 +367,8 @@ body {
     position: relative;
     margin: 0 auto;
     width: 50%;
-    margin-bottom: 1%;
+    height: auto;
+    margin-bottom: 10%;
 }
 
 .artigo input {
