@@ -359,6 +359,7 @@ body {
     position: relative;
     float: left;
     width: 30%;
+    text-align: center;
 }
 
 .artigo img {
@@ -367,7 +368,6 @@ body {
     margin: 0 auto;
     width: 50%;
     height: auto;
-    margin-bottom: 10%;
 }
 
 .artigo input {
@@ -483,3 +483,4 @@ body {
     background-color: darkred;
     padding: 0 0 0 60px;
 }
+
