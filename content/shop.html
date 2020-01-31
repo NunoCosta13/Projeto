@@ -22,16 +22,17 @@
             <i class="fa fa-caret-down"></i>
           </button>
             <div class="dropdown-content">
-                <a href="smite.html">Smite</a>
-                <a href="#">Fifa 20</a>
-                <a href="#">League of Legends</a>
+                <a href="/content/smite.html">Smite</a>
+                <a href="/content/fifa.html">Fifa 20</a>
+                <a href="/content/cod.html">Call of Duty</a>
             </div>
         </div>
         <div class="nav-right">
             <a href="shop.html">Shop</a>
-            <a href="#partners">Partners</a>
-            <a href="about.html">About</a>
+            <a href="#partn">Partners</a>
+            <a href="#about">About</a>
         </div>
+    </div>
     </div>
     <img class="cidade" src="../img/cidade.png" width="100%" height="645px">
     <a href="../index.html"><img class="round_logo" src="../img/logos/logo.png" width="150px" height="150px"></a>
@@ -45,83 +46,85 @@
     </div>
 
     <div>
-    <a href="#" onclick="showCart()" id="cart"><div class="shopCart">
-        <img src="../img/carrinho.png">
-        <h3 id="precoTotal">Total: 0 &euro;</h3>
-        <div id="itemsInCart" style="display: none;">
-            <h3>Items in Cart:</h3>
-        </div></a>
-    </div>     
-
-    <div class="merchContainer">
-        <div class="artigo">
-            <img src="../img/merch/camisola.png">
-            <input type="button" value="Add to cart" name="'Camisola 2020'" class="notInCart" onclick="addRemCart(this, 25)">           
+        <a href="#" onclick="showCart()" id="cart">
+            <div class="shopCart">
+                <img src="../img/carrinho.png">
+                <h3 id="precoTotal">Total: 0 &euro;</h3>
+                <div id="itemsInCart" style="display: none;">
+                    <h3>Items in Cart:</h3>
+                </div>
+        </a>
         </div>
-        <div class="artigo">
-            <img src="../img/merch/gorro.png">
-            <input type="button" value="Add to cart" name="'Gorro 2020'" class="notInCart" onclick="addRemCart(this, 8)">
-        </div>
-        <div class="artigo">
-            <img src="../img/merch/tshirt_tras.png">
-            <input type="button" value="Add to cart" name="'T-Shirt Male 2020'" class="notInCart" onclick="addRemCart(this, 12)">
-        </div>
-    </div>
 
-    <footer>
-        <div class="partners-bottom">
-            <img>
-            <div class="foot-part">
-                <img src="../img/partners/omen.png" width="100px">
+        <div class="merchContainer">
+            <div class="artigo">
+                <img src="../img/merch/camisola.png">
+                <input type="button" value="Add to cart" name="'Camisola 2020'" class="notInCart" onclick="addRemCart(this, 25)">
             </div>
-
-            <div class="foot-part">
-                <img src="../img/partners/ps4.png" width="200px" height="80px">
+            <div class="artigo">
+                <img src="../img/merch/gorro.png">
+                <input type="button" value="Add to cart" name="'Gorro 2020'" class="notInCart" onclick="addRemCart(this, 8)">
             </div>
-            <div class="foot-part">
-                <img src="../img/partners/twitch.png" width="200px" height="100px">
-            </div>
-
-            <div class="foot-part">
-                <img src="../img/partners/super_bock.png" width="100px">
+            <div class="artigo">
+                <img src="../img/merch/tshirt_tras.png">
+                <input type="button" value="Add to cart" name="'T-Shirt Male 2020'" class="notInCart" onclick="addRemCart(this, 12)">
             </div>
         </div>
-        <div class="sub-footer">
-            <img class="sub-img" src="../img/logos/so-logo.png" width="150px">
-            <div class="sub-square">
-                <div class="navigation">
-                    <h3>Navigation</h3>
-                    <dl>
-                        <a href="../index.html">
-                            <dt>Home</dt>
-                        </a>
-                        <a href="">
-                            <dt>Teams</dt>
-                        </a>
-                        <a href="">
-                            <dt>Shop</dt>
-                        </a>
-                    </dl>
+
+        <footer>
+            <div id="partn" class="partners-bottom">
+                <img>
+                <div class="foot-part">
+                    <img src="../img/partners/omen.png" width="100px">
+                </div>
+
+                <div class="foot-part">
+                    <img src="../img/partners/ps4.png" width="200px" height="80px">
+                </div>
+                <div class="foot-part">
+                    <img src="../img/partners/twitch.png" width="200px" height="100px">
+                </div>
+
+                <div class="foot-part">
+                    <img src="../img/partners/super_bock.png" width="100px">
                 </div>
             </div>
-            <div class="sub-square2">
-                <div class="information">
-                    <h3>Information</h3>
-                    <dl>
-                        <a href="../index.html">
-                            <dt>About Us</dt>
-                        </a>
-                        <a href="">
-                            <dt>Partners</dt>
-                        </a>
-                    </dl>
+            <div class="sub-footer">
+                <img class="sub-img" src="../img/logos/so-logo.png" width="150px">
+                <div class="sub-square">
+                    <div class="navigation">
+                        <h3>Navigation</h3>
+                        <dl>
+                            <a href="../index.html">
+                                <dt>Home</dt>
+                            </a>
+                            <a href="">
+                                <dt>Teams</dt>
+                            </a>
+                            <a href="">
+                                <dt>Shop</dt>
+                            </a>
+                        </dl>
+                    </div>
                 </div>
+                <div class="sub-square2">
+                    <div class="information">
+                        <h3>Information</h3>
+                        <dl>
+                            <a href="../index.html">
+                                <dt>About Us</dt>
+                            </a>
+                            <a href="">
+                                <dt>Partners</dt>
+                            </a>
+                        </dl>
+                    </div>
+                </div>
+
             </div>
+        </footer>
 
-        </div>
-    </footer>
-
-    <script src="../index.js"></script>
+        <script src="../index.js"></script>
 </body>
 
 </html>
