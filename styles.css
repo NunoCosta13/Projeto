@@ -486,19 +486,9 @@ body {
 
 .loginForm{
     position: fixed;
-   left: 0;
-   top: 0;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   height: 80%;
-   text-align:center;
-   /*Flexbox*/
-   display: flex;
-   align-items: center;
-   align-content: center;
-   justify-content: center; 
-   
+    top:20%;
+    right: 39%;
+    display: none;
 }
 
 .loginForm form {
@@ -518,4 +508,10 @@ body {
 .loginForm h5 {
     left: 0%;
     top: 0%;
+}
+
+.closeLogin {
+    position: absolute;
+    top: 0;
+    right: 20px;
 }

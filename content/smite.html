@@ -181,6 +181,28 @@
         </div>
 
     </footer>
+
+    <div class="user">
+        <div class="imgUser"><img class="user" alt="Profile Picture" src="../img/noUser.png"></div>
+        <div>
+            <a href="#" onclick="openCloseLogin(this)">Sign In</a>
+            <a href="register.html">Sign Up</a>
+        </div>
+    </div>
+
+    <div id="login" class="loginForm">        
+        <form name="login" action="#" onsubmit="confirmLogin()">
+            <p onclick="openCloseLogin()" class="closeLogin">x</p>
+            <label type="text" for="username"><b>Username</b></label><br>
+            <input placeholder="Enter Your Username" name="username" required><br>
+            <label for="pw"><b>Password</b></label><br>
+            <input type="password" name="pw" required><br>
+
+            <button type="submit" onsubmit="confirmLogin()">Login</button>
+        </form>       
+    </div>
+    
+    <script src="../index.js"></script>
 </body>
 
 </html>

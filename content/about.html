@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>YoMM - About</title>
+    <title>YoMM || About</title>
 </head>
 <body>
     <div class="navbar2">
@@ -36,5 +36,18 @@
     <img class="About" src="../img/about/About.jpg" width="800px" height="400px">
     <h2>Generic title</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in fringilla nibh. Proin vel mollis magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam arcu ante, tempor convallis purus quis, suscipit efficitur magna. Phasellus fringilla enim in lorem efficitur semper. Donec eu nisl et sapien accumsan vulputate efficitur et quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam facilisis semper nisi non placerat. Aenean pharetra orci at ullamcorper hendrerit. Nunc egestas nec sapien in bibendum. In sagittis erat imperdiet ante eleifend, non hendrerit velit tincidunt. Vestibulum vel faucibus turpis, nec mollis nulla.</p>       
+
+    <div id="login" class="loginForm">        
+        <form name="login" action="#" onsubmit="confirmLogin()">
+            <p onclick="openCloseLogin()" class="closeLogin">x</p>
+            <label type="text" for="username"><b>Username</b></label><br>
+            <input placeholder="Enter Your Username" name="username" required><br>
+            <label for="pw"><b>Password</b></label><br>
+            <input type="password" name="pw" required><br>
+
+            <button type="submit" onsubmit="confirmLogin()">Login</button>
+        </form>       
+    </div>
+
 </body>
 </html>
